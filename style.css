@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+}
+
+.section1 {
+  height: 100%;
+  background-color: #1f2937;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-shrink: 1;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  padding: 48px;
+  justify-content: space-around;
+}
+
+.logo {
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+.nav_links {
+  list-style: none;
+  display: flex;
+  gap: 16px;
+}
+
+.nav_links a {
+  text-decoration: none;
+  color: gray;
+  font-size: 18px;
+}
+
+.hero_main {
+  font-size: 48px;
+  font-weight: bold;
+  color: #f9faf8;
+}
+
+.hero_second {
+  font-size: 18px;
+  color: gray;
+  word-wrap: break-word;
+  max-width: 400px;
+}
+
+.hero_button {
+  background-color: #3882f6;
+  color: white;
+  border: none;
+  margin-top: 8px;
+  padding: 6px 18px;
+  border-radius: 6px;
+}
+
+.hero_img img {
+  height: 220px;
+  width: 400px;
+  object-fit: cover;
+  margin: 30px;
+}
+
+.s2_header {
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1f2937;
+  text-align: center;
+  padding: 24px;
+}
+
+.box_imgs {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+.box1 img,
+.box2 img,
+.box3 img,
+.box4 img {
+  padding: 8px;
+  height: 20vh;
+  width: 150px;
+  object-fit: cover;
+  border: 3px solid #3882f6;
+  border-radius: 6px;
+}
+
+.info_subtext {
+  max-width: fit-content;
+  color: gray;
+}
+
+.quote {
+  background-color: #e5e7eb;
+  height: 45vh;
+  padding: 32px;
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.quote_text {
+  font-size: 36px;
+  font-style: italic;
+  color: #1f2937;
+  max-width: 650px;
+}
+
+.author {
+  font-weight: bold;
+  font-size: 24px;
+  align-self: flex-end;
+}
+
+.sign-up {
+  background-color: #3882f6;
+  color: white;
+  height: 12vh;
+  margin: 48px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.signup_header {
+  max-width: fit-content;
+}
+
+.signup_text {
+  max-width: fit-content;
+}
+
+.signup_button {
+  padding: 6px;
+  margin: 12px;
+  background-color: #3882f6;
+  border: 3px solid #e5e7eb;
+  border-radius: 8px;
+  color: #e5e7eb;
+}
+
+.footer {
+  background-color: #1f2937;
+  color: white;
+  padding: 32px;
+}
+
+.inner_footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
